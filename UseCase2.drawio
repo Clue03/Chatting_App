@@ -1,31 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2024-04-09T06:24:50.806Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="82VwHv8neIclbSgWt37W" version="24.2.1" type="github" pages="2">
-  <diagram name="학사 행정" id="aq8Vw57xKmThrdyL-9n2">
-    <mxGraphModel dx="1050" dy="1691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="7WCN1OqnNHBKcE5dO2sc-1" value="학생" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="130" y="120" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7WCN1OqnNHBKcE5dO2sc-2" value="교수" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="130" y="240" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7WCN1OqnNHBKcE5dO2sc-3" value="관리자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="680" y="120" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7WCN1OqnNHBKcE5dO2sc-4" value="PG" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="680" y="240" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="7WCN1OqnNHBKcE5dO2sc-5" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="-60" width="440" height="500" as="geometry" />
-        </mxCell>
-        <mxCell id="7WCN1OqnNHBKcE5dO2sc-8" value="사용자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="180" width="30" height="60" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram name="은행 창구" id="ZEE0i1Ux84FTqZR3u32u">
+<mxfile host="app.diagrams.net" modified="2024-04-09T06:33:40.564Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="hXLewxYISU9qVxxeXe9Z" version="24.2.1" type="github" pages="2">
+  <diagram name="학사행정" id="ZEE0i1Ux84FTqZR3u32u">
     <mxGraphModel dx="1050" dy="1691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="sd917GmyHaw5Ky-GFF-c-0" />
@@ -80,6 +54,68 @@
         </mxCell>
         <mxCell id="GY1rYmlb1BEKfeuQ4TN2-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="sd917GmyHaw5Ky-GFF-c-1" source="sd917GmyHaw5Ky-GFF-c-7" target="sd917GmyHaw5Ky-GFF-c-3">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="은행창구" id="QnJ_L26jgu-bYV4ScZY2">
+    <mxGraphModel dx="1050" dy="1691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="S4pjDPluDubauEm2SRKB-0" />
+        <mxCell id="S4pjDPluDubauEm2SRKB-1" parent="S4pjDPluDubauEm2SRKB-0" />
+        <mxCell id="S4pjDPluDubauEm2SRKB-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="S4pjDPluDubauEm2SRKB-1" source="S4pjDPluDubauEm2SRKB-4" target="S4pjDPluDubauEm2SRKB-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S4pjDPluDubauEm2SRKB-3" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="S4pjDPluDubauEm2SRKB-1" source="S4pjDPluDubauEm2SRKB-4" target="S4pjDPluDubauEm2SRKB-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S4pjDPluDubauEm2SRKB-4" value="고객" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="S4pjDPluDubauEm2SRKB-1">
+          <mxGeometry x="130" y="120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S4pjDPluDubauEm2SRKB-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="S4pjDPluDubauEm2SRKB-1" source="S4pjDPluDubauEm2SRKB-6" target="S4pjDPluDubauEm2SRKB-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S4pjDPluDubauEm2SRKB-6" value="직원&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="S4pjDPluDubauEm2SRKB-1">
+          <mxGeometry x="130" y="240" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S4pjDPluDubauEm2SRKB-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="S4pjDPluDubauEm2SRKB-1" source="S4pjDPluDubauEm2SRKB-8" target="S4pjDPluDubauEm2SRKB-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S4pjDPluDubauEm2SRKB-8" value="관리자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="S4pjDPluDubauEm2SRKB-1">
+          <mxGeometry x="670" y="340" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S4pjDPluDubauEm2SRKB-9" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="S4pjDPluDubauEm2SRKB-1">
+          <mxGeometry x="200" y="-60" width="440" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="S4pjDPluDubauEm2SRKB-10" value="고객 개인 정보 관리" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="S4pjDPluDubauEm2SRKB-9">
+          <mxGeometry x="260" y="395" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="S4pjDPluDubauEm2SRKB-11" value="통장 개설" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="S4pjDPluDubauEm2SRKB-9">
+          <mxGeometry x="70" y="90" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NkApIJP_CuoiIU-vUtor-2" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=bottom;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;dashed=1;startArrow=openThin;startFill=0;" edge="1" parent="S4pjDPluDubauEm2SRKB-9" source="S4pjDPluDubauEm2SRKB-12" target="NkApIJP_CuoiIU-vUtor-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NkApIJP_CuoiIU-vUtor-3" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=bottom;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;startArrow=openThin;startFill=0;dashed=1;" edge="1" parent="S4pjDPluDubauEm2SRKB-9" source="S4pjDPluDubauEm2SRKB-12" target="NkApIJP_CuoiIU-vUtor-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S4pjDPluDubauEm2SRKB-12" value="금융 상품" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="S4pjDPluDubauEm2SRKB-9">
+          <mxGeometry x="70" y="215" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="S4pjDPluDubauEm2SRKB-13" value="강의 등록" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="S4pjDPluDubauEm2SRKB-9">
+          <mxGeometry x="70" y="340" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="S4pjDPluDubauEm2SRKB-14" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=bottom;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" edge="1" parent="S4pjDPluDubauEm2SRKB-9" source="S4pjDPluDubauEm2SRKB-15" target="S4pjDPluDubauEm2SRKB-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S4pjDPluDubauEm2SRKB-15" value="입출금 시스템" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="S4pjDPluDubauEm2SRKB-9">
+          <mxGeometry x="260" y="90" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NkApIJP_CuoiIU-vUtor-0" value="예금" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="S4pjDPluDubauEm2SRKB-9">
+          <mxGeometry x="260" y="180" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NkApIJP_CuoiIU-vUtor-1" value="적금" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="S4pjDPluDubauEm2SRKB-9">
+          <mxGeometry x="260" y="260" width="110" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
