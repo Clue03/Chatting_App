@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-09T06:50:33.437Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="itbv1eNR0mhAJZ91tsGi" version="24.2.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-04-09T06:50:47.728Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="ti48qmfICMOTh2N_EsM1" version="24.2.1" type="github" pages="2">
   <diagram name="학사행정" id="ZEE0i1Ux84FTqZR3u32u">
     <mxGraphModel dx="1050" dy="1691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -93,7 +93,7 @@
         <mxCell id="S4pjDPluDubauEm2SRKB-8" value="관리자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="S4pjDPluDubauEm2SRKB-1">
           <mxGeometry x="680" y="-710" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="S4pjDPluDubauEm2SRKB-9" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="S4pjDPluDubauEm2SRKB-1">
+        <mxCell id="S4pjDPluDubauEm2SRKB-9" value="은행 창구 업무" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="S4pjDPluDubauEm2SRKB-1">
           <mxGeometry x="210" y="-1110" width="440" height="500" as="geometry" />
         </mxCell>
         <mxCell id="S4pjDPluDubauEm2SRKB-10" value="고객 개인 정보 관리" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="S4pjDPluDubauEm2SRKB-9">
