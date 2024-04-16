@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2024-04-16T07:05:48.689Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="mYPWeF6XdRHeBOAS1bsk" version="24.2.5" type="github">
-  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+<mxfile host="app.diagrams.net" modified="2024-04-16T07:25:15.890Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="gZR2-W7QNq07vGwtfnXj" version="24.2.5" type="github" pages="2">
+  <diagram name="Sequence" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -94,6 +94,83 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-4yz82r7T2-vzo8MOfDi-25" value="지급 보류" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1" source="-4yz82r7T2-vzo8MOfDi-20" target="-4yz82r7T2-vzo8MOfDi-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="reSV_S6DBkSa-TGr4Afx" name="렌터카 예약 시스템">
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="h1gKrtuAk7k6H_YOZJ_B-1" value="사용자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="270" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ralqLuWNHDdKJg3bRzmN-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="h1gKrtuAk7k6H_YOZJ_B-2" target="ralqLuWNHDdKJg3bRzmN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ralqLuWNHDdKJg3bRzmN-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="h1gKrtuAk7k6H_YOZJ_B-2" target="ralqLuWNHDdKJg3bRzmN-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h1gKrtuAk7k6H_YOZJ_B-2" value="회원" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="160" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ralqLuWNHDdKJg3bRzmN-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="h1gKrtuAk7k6H_YOZJ_B-3" target="h1gKrtuAk7k6H_YOZJ_B-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ralqLuWNHDdKJg3bRzmN-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="h1gKrtuAk7k6H_YOZJ_B-3" target="ralqLuWNHDdKJg3bRzmN-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h1gKrtuAk7k6H_YOZJ_B-3" value="렌터카 등록자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h1gKrtuAk7k6H_YOZJ_B-7" value="렌터카 예약 시스템" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="200" y="70" width="440" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="ralqLuWNHDdKJg3bRzmN-1" value="회원가입" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="h1gKrtuAk7k6H_YOZJ_B-7">
+          <mxGeometry x="310" y="350" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ralqLuWNHDdKJg3bRzmN-2" value="회원정보관리" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="h1gKrtuAk7k6H_YOZJ_B-7">
+          <mxGeometry x="310" y="100" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ralqLuWNHDdKJg3bRzmN-3" value="차량 등록" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="h1gKrtuAk7k6H_YOZJ_B-7">
+          <mxGeometry x="60" y="310" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ralqLuWNHDdKJg3bRzmN-4" value="렌터카 예약" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="h1gKrtuAk7k6H_YOZJ_B-7">
+          <mxGeometry x="90" y="80" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ralqLuWNHDdKJg3bRzmN-19" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" edge="1" parent="h1gKrtuAk7k6H_YOZJ_B-7" source="ralqLuWNHDdKJg3bRzmN-5" target="ralqLuWNHDdKJg3bRzmN-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ralqLuWNHDdKJg3bRzmN-5" value="차량 등록 취소" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="h1gKrtuAk7k6H_YOZJ_B-7">
+          <mxGeometry x="60" y="410" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ralqLuWNHDdKJg3bRzmN-17" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;verticalAlign=bottom;dashed=1;" edge="1" parent="h1gKrtuAk7k6H_YOZJ_B-7" source="ralqLuWNHDdKJg3bRzmN-6" target="ralqLuWNHDdKJg3bRzmN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ralqLuWNHDdKJg3bRzmN-6" value="렌터카 예약 취소" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="h1gKrtuAk7k6H_YOZJ_B-7">
+          <mxGeometry x="190" y="170" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ralqLuWNHDdKJg3bRzmN-24" value="렌트 비용 결제" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="h1gKrtuAk7k6H_YOZJ_B-7">
+          <mxGeometry x="60" y="170" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h1gKrtuAk7k6H_YOZJ_B-8" value="관리자" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ralqLuWNHDdKJg3bRzmN-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="h1gKrtuAk7k6H_YOZJ_B-2" target="h1gKrtuAk7k6H_YOZJ_B-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ralqLuWNHDdKJg3bRzmN-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="h1gKrtuAk7k6H_YOZJ_B-3" target="ralqLuWNHDdKJg3bRzmN-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ralqLuWNHDdKJg3bRzmN-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ralqLuWNHDdKJg3bRzmN-2" target="h1gKrtuAk7k6H_YOZJ_B-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ralqLuWNHDdKJg3bRzmN-20" value="비회원" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="420" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ralqLuWNHDdKJg3bRzmN-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="ralqLuWNHDdKJg3bRzmN-1" target="ralqLuWNHDdKJg3bRzmN-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
